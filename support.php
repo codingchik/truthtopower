@@ -1,6 +1,8 @@
 <?php 
     require ("nav.php");
 ?>
+
+<div id="wrapper" class="container-fluid">
 <div id="leftcontent">
     <h2>We Support You</h2>
     <p>You are not alone. Our trusted partners are committed to helping you and
@@ -23,6 +25,7 @@
     <p>offers free, anonymous, confidential conversations with trained listeners
         if you’re interested in continuing your experience of sharing.<p/>
     <br/>
+</div>
 </div>
 <?php 
     require ("footer.php");
