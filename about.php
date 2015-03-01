@@ -1,7 +1,7 @@
 <?php 
     require ("nav.php");
 ?>
-
+<div class="row">
 <div id="leftcontent">
     <p>Truth to Power was inspired by the more than <em>25%</em> of enlisted military 
         women who experience sexual trauma their service to our country.</p>
@@ -18,6 +18,7 @@
         <li><a href="http://www.lamayor.org/vets">The Los Angeles Mayor's Office of Veteran Affairs</a></li>
     </ul>
 
+</div>
 </div>
 <?php 
     require ("footer.php");
