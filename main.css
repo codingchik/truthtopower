@@ -115,4 +115,10 @@ h1 {
 }
 #title{
     color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+footer{
+border:2px solid white;
+border-radius:5px;
 }

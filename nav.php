@@ -2,7 +2,7 @@
   <meta charset="UTF-8" />
   <title>TruthToPower</title>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <!-- Latest compiled and minified JavaScript -->
