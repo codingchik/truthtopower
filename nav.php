@@ -2,7 +2,7 @@
   <meta charset="UTF-8" />
   <title>TruthToPower</title>
   <link rel="stylesheet" type="text/css" href="main.css">
-  <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900italic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
 <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
 <!-- Latest compiled and minified JavaScript -->
@@ -15,7 +15,8 @@
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <a class="navbar-brand" href="index.php">TruthToPower</a>
+         <a id="title" class="navbar-brand" href="index.php"> <h1>Truth to Power </h1></a>
+        
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -23,7 +24,7 @@
       <ul class="nav navbar-nav">
       </ul>
 
-        <ul class="nav navbar-nav navbar-right">
+        <ul id="links" class="nav navbar-nav navbar-right">
             <li><a href="about.php">About</a></li>
             <li><a href="support.php">Find Support</a></li>
             <li><a href="involve.php">Get Involved</a></li>

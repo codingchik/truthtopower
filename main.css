@@ -4,18 +4,30 @@ body h2 {
     text-align: center;
     margin: 60px 0px;
 }
-.navbar-header a {
-    font-size: 32px;
-    color: #5A5A5A;
+.nav li a {
+    font-size: 20px;
+    color:white;
     margin-top: 28px;
     padding-left: 30px;
 }
+
+#links a
+{
+    color:white;
+}
+
+#wrapper
+{
+    padding-left:10%;
+    padding-right:10%;
+}
+
 .navbar-right {
     padding: 32px;
     font-size: 17px;
 }
 .navbar {
-    background-color: #1bbc9b !important;
+    background-color: #1BBC9B !important;
     border-bottom: 34px solid #BEBEBE;
     -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0 1px 5px 0 rgba(0,0,0,0.1);
@@ -24,8 +36,9 @@ body h2 {
 #motto {
     font-family: 'Lato', sans-serif;
     color: #5A5A5A;
-    margin: -36px 0px 36px 29px;
+    margin: -70px 0px 45px 22px;
     font-style: italic;
+    color:white;
 }
 .col-center {
     float: none;
@@ -40,7 +53,7 @@ body h2 {
 footer {
     height: 180px;
     width: 100%;
-    background-color: #20C7DD;
+    background-color: #36A2DC;
 }
 
 // 
@@ -111,4 +124,14 @@ h1 {
     list-style-type:none;
 }
 #survey li {
+    margin-top: 85px;
+}
+#title{
+    color:white;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+footer{
+border:2px solid white;
+border-radius:5px;
 }
