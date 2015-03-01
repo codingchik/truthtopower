@@ -5,18 +5,37 @@
 
 <h2>Share your story with the Truth to Power community</h2>
 <div class="row">
-    <p>In order to keep our community safe, respectful and anonymous, 
-        please DO NOT include the following content in your personal story:</p>
-    <ul>
-        <li>Names</li>
-        <li>Identifying personal information of you and of others</li>
-        <li>Specific medical information</li>
-        <li>Expletives</li>
-        <li>Secret or classified information</li>
-    </ul>
+    <div id="message"></div>
+</div>
+<div class="row">
+<div id="lcontent">
+    <h2>Upload</h2>
+    <form method="post" enctype="multipart/form-data" action="upload.php">
+    <input type="file" id="fileToUpload" name="fileToUpload" />
+    <button class="btn btn-default btn-lg"><input type="submit" name="submit" value="Upload"/></button>
+  </form>
+</div>
     
+<div id="rcontent">
+    <h2> Voice Masking</h2>
+	<button class="btn btn-default btn-lg" id=playButton onclick="truth.play()">Click me</button>
+	<button  class="btn btn-default btn-lg" id='maskButton' onclick="truth.mask()">Anonymize me</button>
+</div>
+</div>
+<div class="row" id="survey">
+    <p>In order to keep our community safe, respectful and anonymous, 
+        <br/>please DO NOT include the following content in your personal story:</p>
+    <ul><br/>
+        <li>- Names</li>
+        <li>- Identifying personal information of you and of others</li>
+        <li>- Specific medical information</li>
+        <li>- Expletives</li>
+        <li>- Secret or classified information</li>
+    </ul>
+    <br/>
     <p>If you feel comfortable, please share the following information about 
         yourself. These questions are optional and anonymous. </p>
+    <br/>
     <form action="">
         <p>Which branch of the military did you serve?</p>
         <select name="Choose One">
@@ -34,24 +53,9 @@
             <option value="26-40">26-40</option>
             <option value="40+">40+</option>
         </select>
+        <br/>
+        <input type="submit" name="submit" value="Upload"/>
     </form>
-</div>
-<div class="row">
-<div id="lcontent">
-    <h3>Upload</h3>
-    <form method="post" enctype="multipart/form-data" action="upload.php">
-    <input type="file" id="fileToUpload" name="fileToUpload" />
-    <input type="submit" name="submit" value="Upload"/>
-  </form>
-</div>
-<div id="rcontent">
-    <h3>Record Now</h3>
-    <p>Click<a href="https://clyp.it/"> here</a> to use Clyp.it to record 
-        your audio file now.</p>
-</div>
-</div>
-<div class="row">
-    <div id="message"></div>
 </div>
 
 <?php 
